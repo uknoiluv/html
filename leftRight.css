@@ -1,0 +1,28 @@
+
+
+body{
+  padding:0;
+  margin:0;
+}
+
+.container{
+height:100%;
+width:100%;
+position: absolute;
+}
+
+.left{
+width: 50%;
+height:100%;
+float:left;
+background-color: red;
+position: relative;
+}
+
+.right{
+width: 50%;
+height:100%;
+float:left;
+background-color: yellow;
+position: relative;
+}

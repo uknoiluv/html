@@ -1,0 +1,23 @@
+
+body{
+
+}
+
+.container{
+position: relative; 
+}
+
+.outer{
+display: flex;
+background-color: red;
+height: 300px;
+width: 300px;
+}
+
+.inner{
+margin: auto;
+background-color: yellow;
+height: 100px;
+width: 100px;
+}
+	
