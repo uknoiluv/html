@@ -1,0 +1,13 @@
+
+.outer {
+background-color: pink;
+height: 500px; /* Defaults to 0. Can't use %. */
+width: 500px;
+display: flex; /* Enables child centering & prevents child width defaulting to 100%. */
+justify-content: center; /* Horizontally centers child. */
+align-items: center; /* Vertically centers child. */
+}
+
+.inner {
+background-color: blue;
+}
