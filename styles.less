@@ -1,0 +1,30 @@
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+
+#header {
+  color: @light-blue;
+}
+
+.one {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+    .uno {
+      height:200px;
+      width: 200px;
+    }
+    .zwei {
+      .uno;
+    }
+    .drei {
+      .uno;
+    }
+}
+
+.two {
+  .one;
+}
+
+.three {
+  .one;
+}
