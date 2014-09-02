@@ -6,25 +6,30 @@
 }
 
 .one {
-  background-color: red;
+  background-color: @light-blue;
   height: 300px;
   width: 300px;
-    .uno {
+}
+
+.uno {
+      background-color: black;
       height:200px;
       width: 200px;
-    }
-    .zwei {
-      .uno;
-    }
-    .drei {
-      .uno;
-    }
+      position:relative;
 }
 
 .two {
-  .one;
+  background-color: blue;
+  height:200px;
+  width: 200px;
+  float:left;
+  position:relative;
 }
 
 .three {
-  .one;
+  background-color: yellow;
+  height:200px;
+  width: 200px;
+  float:left;
+  position:relative;
 }
