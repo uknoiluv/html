@@ -1,11 +1,74 @@
 
 .container {
-  /*width: 200px;*/
-  height: 300px;
+  /*width: 500px;*/
+  /*height: 300px;*/
+  border: 3px solid black;
 }
 
 .floating {
+  background-color: blue;
   color: red;
-  /*width: 100px;*/
+  width: 100px;
+  height: 150px;
   float: left;
 }
+/*
+.clear{
+  clear: both;
+}*/
+
+.first {
+  border: 3px solid black;
+}
+
+.second {
+  /*clear: both;*/
+  color: blue;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear:both;
+}
+
+.sale {
+  display:block;
+  width:100%;
+  padding:0 10px;
+  margin:5px 0;
+  text-align:center;
+}
+
+.inside {
+  /*float:left;*/
+  display:block;
+  background-color:red;
+  color:blue;
+  height:20px;
+  width:100px;
+  margin: 0 auto;
+  text-align: center;
+}
+/*.floating1 {
+  background-color: green;	
+  width: 200px;
+  float: left;
+}
+
+.floating2 {
+  background-color: black;	
+  color: white;
+  width: 200px;
+  float: left;
+}
+
+.floating3 {
+  background-color: gray;	
+  width: 200px;
+  float: left;
+}
+*/

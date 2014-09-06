@@ -1,0 +1,48 @@
+
+.box{
+	width: 200px;
+	height: 300px;
+	border: 5px solid blue;
+	padding-left: 10px;
+	padding-right: 20px;
+	/*overflow: visible;*/
+	/*overflow: auto;*/
+	/*overflow: hidden;*/
+	overflow: scroll;
+}
+
+.inside{
+	width: 40px;
+	height: 20px;
+	background-color: yellow;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
+sup {
+	position: relative;
+	top: -0.5em;
+}
+
+h3 {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.test {
+    width:600px;
+    position: relative;
+}
+
+.beer {
+	position: absolute;
+	left:200px;
+}
+.rubduck {
+	position: absolute;
+	left:20px;
+	z-index: 1;
+}
+
