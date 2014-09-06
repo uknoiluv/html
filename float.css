@@ -1,0 +1,11 @@
+
+.container {
+  /*width: 200px;*/
+  height: 300px;
+}
+
+.floating {
+  color: red;
+  /*width: 100px;*/
+  float: left;
+}
