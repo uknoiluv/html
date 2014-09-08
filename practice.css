@@ -1,0 +1,45 @@
+
+.container{
+  width: 1000px;
+  height: 700px;
+  background-color: yellow;
+}
+
+.right {
+  position: relative;
+  top: 40px;
+  right: 20px;
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.clear {
+  height: 20px;
+  clear: both;
+}
+
+.rubduck {
+  height: 50px;
+  margin-left: -60px;
+}
+
+.container.test {
+  margin-top: 40px;
+  height: 100px;
+  background-color: gray;
+}
+
+.drag {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 20px;
+  height: 60px;
+  width: 200px;
+  background-color: brown;
+  text-align: center;
+}
