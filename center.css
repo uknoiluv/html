@@ -5,6 +5,7 @@ body{
 
 .container{
 position: relative; 
+width: 300px;
 }
 
 .outer{
@@ -21,3 +22,8 @@ height: 100px;
 width: 100px;
 }
 	
+.top{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
