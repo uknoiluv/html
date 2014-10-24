@@ -43,3 +43,7 @@
   background-color: brown;
   text-align: center;
 }
+
+article+span {
+  color: green;
+}
